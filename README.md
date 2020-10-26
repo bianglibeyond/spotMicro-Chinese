@@ -27,19 +27,21 @@ This project is the source code for a Spot Micro quadruped, a 4 legged open sour
 
 The software is composed ot C++ and python nodes in a ROS framework.
 
-### Hardware:
+
 
 
 ## 关于中文翻攻略的作者
 
 嗨朋友，你好！能在这里遇到就说明我们一定程度上志趣相投了~我先做个自我介绍：
 
-李必昂,目前于香港中文大学工学院修读MPhil学位，研究下肢外骨骼;本科毕业于香港城市大学商学院，主修商业经济学、辅修计算机科学。
+李必昂，目前于香港中文大学工学院修读MPhil学位，研究下肢外骨骼;本科毕业于香港城市大学商学院，主修商业经济学、辅修计算机科学。
 
 你肯定不难发现我是从一个商科生转专业到机器人领域的，同样是几乎零基础起步。
 
 
-## External Links
+## 拓展链接
+这部分没有翻译，是因为如果你现在看不懂，那你就完全没有必要看下去了，往前就是高端玩家的世界了哈哈哈。
+
 Spot Micro AI community: https://gitlab.com/custom_robots/spotmicroai
 
 Research paper used for inverse kinematics:
