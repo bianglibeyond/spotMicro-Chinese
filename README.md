@@ -30,14 +30,10 @@ The software is composed ot C++ and python nodes in a ROS framework.
 ### Hardware:
 
 
-
+## External Links
 ##关于中文翻攻略的作者
 
-嗨朋友，你好！
-
-能在这里遇到就说明我们一定程度上志趣相投了~
-
-我先做个自我介绍：
+嗨朋友，你好！能在这里遇到就说明我们一定程度上志趣相投了~我先做个自我介绍：
 
 李必昂
 
