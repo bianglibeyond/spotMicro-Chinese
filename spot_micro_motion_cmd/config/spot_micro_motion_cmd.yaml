@@ -1,0 +1,65 @@
+# yaml file to store the configurations
+
+
+# Robot structure parameters
+hip_link_length: 0.055
+upper_leg_link_length: 0.1075
+lower_leg_link_length: 0.130
+body_width: 0.078
+body_length: 0.186
+
+# Stance parameters
+default_stand_height: 0.155
+stand_front_x_offset: 0.015
+stand_back_x_offset: 0.0
+lie_down_height: 0.083
+lie_down_foot_x_offset: 0.065 
+
+# Servo parameters
+num_servos: 12
+servo_max_angle_deg: 82.5
+RF_3: {num: 1,  center: 306,range: 385,direction:  1, center_angle_deg:  84.0}
+RF_2: {num: 2,  center: 306,range: 385,direction:  1, center_angle_deg: -27.9}
+RF_1: {num: 3,  center: 306,range: 396,direction: -1, center_angle_deg:  -5.4}
+RB_3: {num: 4,  center: 306,range: 394,direction:  1, center_angle_deg:  90.4}
+RB_2: {num: 5,  center: 306,range: 396,direction:  1, center_angle_deg: -35.4}
+RB_1: {num: 6,  center: 306,range: 410,direction:  1, center_angle_deg:  -4.4}
+LB_3: {num: 7,  center: 306,range: 390,direction:  1, center_angle_deg: -84.1}
+LB_2: {num: 8,  center: 306,range: 392,direction:  1, center_angle_deg:  37.4}
+LB_1: {num: 9,  center: 306,range: 374,direction: -1, center_angle_deg:  -0.4}
+LF_3: {num: 10, center: 306,range: 394,direction:  1, center_angle_deg: -80.0}
+LF_2: {num: 11, center: 306,range: 392,direction:  1, center_angle_deg:  37.9}
+LF_1: {num: 12, center: 306,range: 403,direction:  1, center_angle_deg:  -9.0}
+
+# Control Parameters
+transit_tau: 0.3 # Time constant in seconds for transition state first order filters
+transit_rl: 0.06 # rate limit in m/s for transition state first order filters
+transit_angle_rl: 0.35 # rate limit in rad/s for transition angle state first order filters
+
+# Gait parameters
+max_fwd_velocity: 0.4
+max_side_velocity: 0.4
+max_yaw_rate: 0.35
+z_clearance: 0.045
+alpha: 0.5
+beta: 0.5
+num_phases: 8
+rb_contact_phases: [1, 0, 1, 1, 1, 1, 1, 1]
+rf_contact_phases: [1, 1, 1, 0, 1, 1, 1, 1]
+lf_contact_phases: [1, 1, 1, 1, 1, 1, 1, 0]
+lb_contact_phases: [1, 1, 1, 1, 1, 0, 1, 1]
+overlap_time: 0.0
+swing_time: 0.20
+foot_height_time_constant: 0.02
+body_shift_phases: [1, 2, 3, 4, 5, 6, 7, 8]
+fwd_body_balance_shift: 0.025
+back_body_balance_shift: 0.005
+side_body_balance_shift: 0.015
+
+# Node parameters
+dt: 0.02 #50 hz
+
+# Debug mode
+debug_mode: false
+plot_mode: true
+
