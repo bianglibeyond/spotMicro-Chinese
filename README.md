@@ -20,14 +20,27 @@ Our models are based from Spot Micro AI Community
 Our contribution is more about tranlating those great open-sourced technical knowledge into Chinese with a more beginner-friendly mind map.
 
 
+## 简单说说关于机器人的那些事儿
+机器人无非就是电脑通过软件控制硬件行动，把电脑和各种硬件连起来并不难，难点往往在基础的物理、电路知识，和指挥硬件“如何运动”的数学策略。这里且不展开描述那些难点，你现在需要知道的就是，我们马上要做的事情，完全不会涉及到它们。
+
+我们现在要做的事情，是把设计好的硬件用电线或者无线信号连起来，然后通过电脑向它们发出一些简单的指令，让硬件“听懂”我们的指令并且乖乖动起来！也许你现在觉得电脑能让硬件动起来真神奇（我也这么想），但其实最早发明电脑的先辈们都是先用电脑控制硬件，之后花了好长时间才终于造出我们现在熟悉的高级计算机，反而我们居然不需要弄懂计算机里面的原理，就可以直接在软件层面使用了！说实话，老人们也许会觉得我们这样子才是真的不可思议。（这里其实涉及到了很本质的计算机的思想，且不展开多说了，如果有需要，可以联系我搞个小课堂什么的）
+
+所以，你不妨长出一口气，小菜一碟~
+
+我们的大致步骤是：购买硬件 => 尝试用你的电脑和狗狗的电脑通话 => 尝试用狗狗的电脑指挥硬件 => 把硬件组装起来 => 让狗狗动起来！
+
 下面马上开始！
 
-## Overview
-This project is the source code for a Spot Micro quadruped, a 4 legged open source robot. This code is capable of keyboard control of a spot micro robot with sit, stand, angle command, and walk capability. The software is implemented on a Raspberry Pi 3B computer running Ubuntu 16.04.
+## 硬件准备
+硬件包括3D打印文件和其它可以直接购买到的东西，3D打印需要你联系3D打印店家，把相应的文件发过去打印。
 
-The software is composed ot C++ and python nodes in a ROS framework.
+硬件所需的全部物料清单都在“硬件部分”文件夹里，里面有详细的介绍。这里建议你（除非本身比较懂）最好和我用完全一样的硬件，因为不同的硬件之间合作的方式会有差异，为了避免不必要的差异，和我保持一致是最安全的。
 
 
+## 软件上手
+软件主要由三部分组成：测试、校准、运行。
+
+全部代码都在“软件部分”文件夹里，里面有详细的介绍。我同样建议你和我用同样的系统、软件，因为不同的软件之间合作的方式也有差异，不同的系统很可能也内置了不同的软件，导致同样的指令没办法起到相同的效果。为了避免不必要的差异，和我保持一致是最安全的。
 
 
 ## 关于中文翻攻略的作者
@@ -41,6 +54,8 @@ The software is composed ot C++ and python nodes in a ROS framework.
 此外，如果你想交个朋友，或者如果你需要更私人一些的援助（比如物料采购、远程教学、面对面教学···），也欢迎你联系我，直接加我微信就好~
 
 微信号：fading_fire_
+
+（请备注：中文姓名-机构-领域，比如：李必昂-港中文-机器人）
 
 邮箱：bianglibeyond@link.cuhk.edu.hk
 
