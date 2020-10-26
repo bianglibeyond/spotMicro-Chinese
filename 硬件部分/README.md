@@ -1,6 +1,6 @@
 # Spot Micro Quadruped Project
 
-![Spot Micro Walking](assets/spot_micro_walking.gif)
+![Spot Micro Walking](../assets/spot_micro_walking.gif)
 
 Video of robot: https://www.youtube.com/watch?v=S-uzWG9Z-5E
 
@@ -105,7 +105,7 @@ Typing quit at the command input will quit the program with the servos fixed at 
 ## Description of ROS Nodes
 * **spot_micro_motion_cmd**: Main node running robot control software. Takes in state event commands and motion commands, outputs servo control commands. Utilizes a yaml configuration file for various software settings. Consists of a state machine with 5 states and the following mode diagram:
 
-![Spot Micro Walking](assets/state_machine.png)
+![Spot Micro Walking](../assets/state_machine.png)
 
 The default gait is a walk style gait that consists of 8 phases, swings only one leg at a time, and shifts the body in between leg swings to balance the body over the 3 legs that remain on the ground. No speed or angle command limits are implemented in the software, but the inverse kinematics model does cruide trigonometric domain function limiting to avoid math errors.
 
