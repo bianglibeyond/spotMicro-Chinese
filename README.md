@@ -5,8 +5,11 @@
 视频来源（打不开没关系，不重要）: https://www.youtube.com/watch?v=S-uzWG9Z-5E
 
 致谢/Credit to:
+
 我们的所有代码来自于Mike的开源仓库：https://github.com/mike4192/spotMicro
+
 模型原型来自于 Spot Micro AI 社区：https://gitlab.com/custom_robots/spotmicroai
+
 这份中文攻略的主要工作是把英文开源社区的内容翻译成中文、整理成更适合初学者的结构。
 
 下面马上开始！
