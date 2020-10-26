@@ -1,6 +1,6 @@
 # Spot Micro Quadruped Project
 
-![Spot Micro Walking](一些不重要的素材/spot_micro_walking.gif)
+![Spot Micro Walking](assets/spot_micro_walking.gif)
 
 Video of robot: https://www.youtube.com/watch?v=S-uzWG9Z-5E
 
